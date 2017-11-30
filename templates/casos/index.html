@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+{% block body %}
+
+<div class="row">
+    <div class="col-lg-12">
+        <h1>Listado de Casos</h1>
+        <hr>
+    </div>
+    
+    <div class="col-lg-6">
+        
+        <div class="list-group">
+            
+          <a href="{{url_for('get_business_continuity')}}" class="list-group-item">
+            
+            <h4 class="list-group-item-heading"> <i class="fa fa-certificate" aria-hidden="true"></i> Continuidad de Negocio</h4>
+            <p class="list-group-item-text">Caso: Northern Lincolnshire and Goole NHS Foundation Trust</p>
+          </a>
+          
+
+        </div>
+        
+    </div>
+    
+</div>
+
+
+
+
+{% endblock %}

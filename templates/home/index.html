@@ -3,22 +3,24 @@
 
 <div class="row">
   <div class="col-lg-12">
-    <h1>Servicios</h1>
-  <hr>
+    <h1>Catálogo de Servicios</h1>
+    <hr>
   </div>
   
   <!-- BEGIN SERVICE -->
   <div class="col-lg-4">
     
-    <div class="panel panel-primary">
-      <div class="panel-heading">
-        <h3 class="panel-title">Web Authentication and Authorization</h3>
+    <a href="{{url_for('service_1')}}">
+      <div class="panel panel-primary" style="min-height: 18em;">
+        <div class="panel-heading text-center">
+          <i style="color: yellow;" class="fa fa-shield fa-5x" aria-hidden="true"></i>
+          <h3 class="panel-title">Servicio de Autenticación y Autorización</h3>
+        </div>
+        <div class="panel-body text-justify">
+          Este servicio contempla la gestión de cuentas de usuarios. Asignación de permisos por medio de grupos o "entitlements". Adicionalmente se provee autenticación de dos factores (2FA).
+        </div>
       </div>
-      <div class="panel-body">
-        Servicio que provee seguridad a los miembros de la red mediante sistemas que protegen los datos de ingresos no autorizados. 
-      </div>
-    </div>
-    
+    </a>
     
   </div>
   <!-- END SERVICE -->
@@ -26,14 +28,16 @@
   
   <!-- BEGIN SERVICE -->
   <div class="col-lg-4">
-    <a href="#">
-        <div class="panel panel-primary">
-          <div class="panel-heading">
-            <h3 class="panel-title">Website Building and Consulting</h3>
+    <a href="{{url_for('service_2')}}">
+      
+        <div class="panel panel-primary" style="min-height: 18em;">
+          <div class="panel-heading text-center">
+            <i style="color: yellow;" class="fa fa-html5 fa-5x" aria-hidden="true"></i>
+            <h3 class="panel-title">Servicio de Diseño e Implementación de Sitios Web</h3>
           </div>
-          <div class="panel-body">
-            Se ofrece una variedad de soluciones visualmente atractivas con diseños de páginas flexibles. Se elabora una estrategia integral de proyecto web o se brinda acompañamiento 
-            en el proceso de contratación de proveedores altamente calificados. 
+          <div class="panel-body text-justify">
+              Se ofrece una variedad de soluciones visualmente atractivas con diseños de páginas flexibles. Se elabora una estrategia integral de proyecto web o se brinda acompañamiento 
+              en el proceso de contratación de proveedores altamente calificados. 
           </div>
         </div>
     </a>
@@ -45,20 +49,65 @@
   
   <!-- BEGIN SERVICE -->
   <div class="col-lg-4">
-    
-    <div class="panel panel-primary">
-      <div class="panel-heading">
-        <h3 class="panel-title">Servicio de creación de Virtual Hosts</h3>
+    <a href="{{url_for('service_3')}}">
+      <div class="panel panel-primary" style="min-height: 18em;">
+        <div class="panel-heading text-center">
+          <i style="color: yellow;" class="fa fa-server fa-5x" aria-hidden="true"></i>
+          <h3 class="panel-title">Servicio de creación de Virtual Hosts</h3>
+        </div>
+        <div class="panel-body text-justify">
+          Permite cambiar un URL largo a uno más descriptivo y corto para que la dirección de una página sea más fácil de acceder y recordar. 
+        </div>
       </div>
-      <div class="panel-body">
-        Permite cambiar un URL largo a uno más descriptivo y corto para que la dirección de una página sea más fácil de acceder y recordar. 
-      </div>
-    </div>
+    </a>
     
     
   </div>
   <!-- END SERVICE -->
   
+  
+</div>
+
+<div class="row">
+  
+  <div class="col-lg-12">
+    <h1>Estado de Documentación</h1>
+    <hr>
+  </div>
+  
+  <div class="col-lg-4">
+    <div class="list-group">
+      <a href="#" class="list-group-item active">
+        Integrantes
+      </a>
+      <a href="#" class="list-group-item">
+        Daniel Castellano Moncada
+      </a>
+      <a href="#" class="list-group-item">
+        Roberto Roger Cruz
+      </a>
+      <a href="#" class="list-group-item">
+        Diego Delgado Cerdas
+      </a>
+      <a href="#" class="list-group-item">
+        Pedro Guzmán Benavides
+      </a>
+    </div>
+  </div>
+  
+  <div class="col-lg-4">
+    <div class="list-group">
+      <a href="#" class="list-group-item active">
+        Estado de este catálogo
+      </a>
+      <a href="#" class="list-group-item">
+        Catálogo de Servicios &nbsp;&nbsp; <i class="fa fa-check" style="color: green;" aria-hidden="true"></i>
+      </a>
+      <a href="#" class="list-group-item">
+        Service Level Agreements (SLAs) <strong>(en progreso)</strong>
+      </a>
+    </div>
+  </div>
   
 </div>
 
