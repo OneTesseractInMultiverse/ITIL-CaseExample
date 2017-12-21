@@ -1,0 +1,55 @@
+{% extends "layout.html" %}
+{% block body %}
+
+<div class="row">
+
+    <div class="col-lg-12">
+        <h1>Formulario de Solicitud de Cambio</h1>
+        <hr>
+    </div>
+
+    <div class="col-lg-12">
+
+        <div class="col-lg-12">
+            <form>
+                Servicio <br>
+                <select name="servicio">
+                  <option value="auth">Autenticación y Autorización</option>
+                  <option value="design">Diseño e Implementación de Sitios Web</option>
+                  <option value="virtualhost">Creación de Virtual Hosts</option>
+                </select>
+                <br>
+                Fecha de Solicitud <br>
+                <input type="date" name="reqeuestdate">
+                Propietario del cambio <br>
+                 <input type="text" name="owner"><br>
+                Prioridad del cambio <br>
+                <select name="priority">
+                  <option value="veryhigh">Muy alta</option>
+                  <option value="high">Alta</option>
+                  <option value="regular">Normal</option>
+                  <option value="low">Baja</option>
+                </select>
+                <br>
+                Descripción del cambio <br>
+                <textarea rows="4" cols="50" name="description" form="usrform"></textarea> <br>
+                Razón del cambio <br>
+                <textarea rows="4" cols="50" name="reason" form="usrform"></textarea> <br>
+                Detalles de implementación del cambio <br>
+                <textarea rows="4" cols="50" name="details" form="usrform"></textarea> <br>
+                Riesgos a considerar como consecuencia del cambio <br>
+                <textarea rows="4" cols="50" name="risks" form="usrform"></textarea> <br>
+                Estimado de recursos necesarios (Costos, personal, tiempo) <br>
+                <textarea rows="4" cols="50" name="risks" form="usrform"></textarea> <br>
+                Fecha sugerida para la implementación <br>
+                <input type="date" name="suggesteddate"> <br>
+                  <br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+
+    </div>
+    <!-- COL ENDS -->
+
+</div>
+{% endblock %}
