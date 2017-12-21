@@ -17,3 +17,10 @@ def home():
 @app.route('/rfc', methods=['GET'])
 def rfc():
     return render_template("home/request_change_form.html")
+
+# --------------------------------------------------------------------------
+# GET /
+# --------------------------------------------------------------------------
+@app.route('/capacity', methods=['GET'])
+def capcity():
+    return render_template("home/capacity_plan.html")
