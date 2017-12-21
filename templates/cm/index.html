@@ -1,0 +1,392 @@
+{% extends "layout.html" %}
+{% block body %}
+
+<div class="row">
+
+    <div class="col-lg-12">
+        <h1> Plan de Gestión de Cambios </h1>
+        <hr>
+    </div>
+    
+    <div class="col-lg-12 well well-sm">
+        <h2> Definición de Cambio </h2>
+        <p class=text-justify>
+            Para efectos de este documento, se define como cambio a toda adición, modificación o eliminación de un item de configuración, servicio, 
+            componente de servicio y/o cualquiera de sus elementos asociados. 
+        </p>
+    </div>
+  
+    <div class="col-lg-12 well well-sm">
+        <h2> Descripción </h2>
+        <p class=text-justify>
+            Para garantizar que los servicios prestados se mantengan disponibles, funcionales y correctos con el pasar del tiempo, es de suma
+            importancia definir un proceso que permita gestionar la forma como se llevan a cabo cambios en los servicios de manera que se 
+            pueda garantizar el menos impacto en la prestación de servicios y la continuidad de negocio. 
+            <br>
+            <br>
+            El plan de gestión de cambios define una serie de documentos que permiten reunir la información necesaria para poder llevar acabo
+            los cambios en un proyecto desde que este inicia.
+            <br>
+            <br>
+            El proceso de gestión de cambios garantiza el uso de métodos y procedimientos eficientes para gestionar todos cambios que se realizan
+            sobre los servicios brindados por Kool-Aid de manera que estos cambios generen el menos impacto posible sobre la operación y la prestación 
+            de los servicios. 
+            <br>
+            <br>
+            El control de cambios en Kool-Aid inicia con la identificación, documentación y clasificación de los cambios. Posteriormente, se continúa 
+            con el proceso de aprovación de estos, pruebas y luego calendarización para ser implementados. Una vez concluida la implementación, esta
+            es evaluada y medida. En este punto el proceso de gestión de cambio termina. 
+        </p>
+    </div>
+    
+    <div class="col-lg-12 well well-sm">
+        <h2> Objetivos </h2>
+        <ul>
+            <li>
+                <p>Proveer un proceso estructurado para planificar, coordinar e implementar cambios.</p>
+            </li>
+            <li>
+                <p>Minimizar el impacto de los cambios y conservar la disponibilidad de los servicios.</p>  
+            </li>
+        </ul>
+    </div>
+    
+    <div class="col-lg-12 well well-sm">
+        <h2> Proceso de Control de Cambios </h2>
+        <p class=text-justify>
+           El proceso de gestión de cambios cuenta con los siguiente sub-procesos:
+           <br>
+        </p>
+        
+        <div class="list-group">
+            <a href="#" class="list-group-item active">
+            Sub-Procesos
+            </a>
+            
+            <a href="#" class="list-group-item">
+                1 - Registro de Solicitud de Cambio
+            </a>
+            
+            <a href="#" class="list-group-item">
+                2 - Revisión de Solicitud de Cambio
+            </a>
+            
+            <a href="#" class="list-group-item">
+                3 - Evaluación de cambios y planificación
+            </a>
+            
+            <a href="#" class="list-group-item">
+                4 - Aprobación de cambios
+            </a>
+            
+            <a href="#" class="list-group-item">
+                5 - Coordinación para la implementación de cambios
+            </a>
+            
+            <a href="#" class="list-group-item">
+                6 - Evaluación de cambios y cierre
+            </a>
+            
+            <a href="#" class="list-group-item active">
+                * - Manejo de cambios de emergencia
+            </a>
+            
+        </div>
+        
+    </div>
+      
+    <div class="col-lg-12 well well-sm">
+        <h2> Componentes </h2>
+        <p class="text-justify">
+            Para efectos de este proceso, se asume que las decisiones de técnicas y de negocio que originan un cambio, han sido gestionadas
+            previamente al inicio de este proceso por medio de otros procesos que son externos a la gestión de cambios como tal. El proceso 
+            gestión de cambios tiene los siguientes componentes:
+        </p>
+        
+        <h3>Comité de Aprobación de Cambios</h3>
+        <p class="text-justify">
+            Este grupo se encarga de brindar apoyo al equipo de gestión de cambios por medio de la aprobación de las solicitudes de cambio 
+            y la priorización de estas solicitudes. Este comite está conformado por:
+        </p>
+        <ul>
+            <li>
+                <p>
+                    Gerente de Gestión de Cambios
+                </p>
+            </li>
+            <li>
+                <p>
+                    Expertos Técnicos
+                </p>
+            </li>
+            <li>
+                <p>
+                    Representantes de los clientes / usuarios
+                </p>
+            </li>
+        </ul>
+        <p class="text-justify">
+            Los miembros de este comité deben ser seleccionados cuidadosamente con el objetivo de garantizar que se han incluido las perspectivas
+            tanto técnicas como de negocio. Las reuniones de este comité ocurren de manera regular al menos una vez por semana. 
+        </p>
+        
+         <h3>Recorte de tiempos</h3>
+        <p class="text-justify">
+            El comité de gestión de cambios va a revisar únicamente las solicitudes de cambio que han sido programadas para revisión por el 
+            gerente de gestión de cambios. Las solicitudes que no cuenten con todos los requerimientos no serán aceptados. La fecha límite para
+            recibir solicitudes de camdio es dos días previos a la reunión del comité.
+        </p>
+        
+        <h3>Cambios de Emergencia</h3>
+        <p class="text-justify">
+            Existe un comité de aprobación de cambios de emergencia el cual es el encargado de tomar las decisiones acerca de cambios de 
+            emergencia con un alto impacto. Los cambios de emergencia son únicamente autorizados cuando se deben llevar acabo para reparar
+            un error en alguno de los servicios que está generando un alto impacto en el negocio. Estas acciones se deben realizar de manera
+            inmediata con el objetivo de restablecer un servicio o prevenir un problema mayor. Las reuniones de este comité ocurren cuando se 
+            produce un evento de emergencia y no requieren ser en persona con el objetivo de agilizar el proceso de aprobración. 
+        </p>
+        
+        <h3>Herramienta de Gestión de Cambios</h3>
+        <p class="text-justify">
+            Para administrar el proceso de gestión de cambios, se hace uso de una herramienta denominada HP Service Manager la cual cuenta con un
+            módulo para gestión de cambios. Esta herramienta permite automatizar el proceso de gestión y centraliza la información relacionada a 
+            cada cambio. 
+        </p>
+        
+    </div>
+    
+    
+    <div class="col-lg-12 well well-sm">
+        <h2> Proceso de Gestión de Cambios</h2>
+        <p class=text-justify>
+            A continuación se detallan las actividades que conforman el proceso de gestión de cambios.
+        </p>
+        
+        <div class="hdl col-lg-12">
+            <center>
+                <img width="95%" src="{{ url_for('static', filename='img/cm.png') }}"/>
+            </center>
+        </div>
+        
+        <div class="col-lg-12">
+            
+            <h3 class="text-primary">1 - Recepción de Solicitud de Cambios</h3>
+            <p class="text-justify">
+                Las personas responsables de implementar un cambio, son las personas responsables de documentar y emitir una
+                solicitud de cambio. 
+                <br>
+                Antes de iniciar el proceso de preparación para realizar un cambio, todos los aspectos técnicos de este cambio 
+                deben ser coordinados entre quien solicita el cambio y quienes tienen la responsabilidad de implementar el 
+                cambio como tal. Todos los cambios deben ser verificados previamente a la implementación y toda la información
+                relacionada al éxito o fallas obtenidas como reesultado de las pruebas junto con la solicitud de cambio (RFC). 
+            </p>
+            
+            <hr>
+            
+            <h4 class="text-primary">1.1 - Definición de Alcance</h4>
+            <p class="text-justify">
+                
+                Para deifnir el alcance de un cambio, se debe identificar las plataformas que serán impactadas, la duración de 
+                la ventana  de mantenimiento requerida para implementar los cambios, unidades de negocio y departamentos y se 
+                deben identificar riesgos. Esta información se utiliza en varios puntos de decisión durante el proceso. 
+                <br>
+                La complejidad de los cambios debe ser entendida y comunicada a la o las personas responsables de aprobar el
+                cambio. 
+            </p>
+            
+            
+            <h4 class="text-primary">1.2 - Borrador de Solicitud de Cambio</h4>
+            <p class="text-justify">
+                
+                Una vez que el alcance de un cambio es definido, los datos se deben consolidar en un documento de solicitud de 
+                cambio. Todos los datos relacionados a los detalles de implementación, verificación y contingencias se deben
+                incluir en la solicitud de cambio. Finalmente, es responsabilidad del solicitante, determinar el nivel de 
+                riesgo asociado al cambio. 
+            </p>
+            
+            <h4 class="text-primary">1.3 - Creación de Solicitud de Cambio</h4>
+            <p class="text-justify">
+                La solicitud debe ser enviada a revisión dentro de los tiempos establecidos para garantizar que los usuarios
+                reciban la notificación de cambios con suficiente antelación. La ventana máxima de duración de un cambio, no 
+                debería exceder los 7 días para una única solicitud de cambio. 
+            </p>
+            
+            <hr>
+            <h3 class="text-primary">2 - Revisión/Evaluación de Solicitud de Cambio</h3>
+            <p class="text-justify">
+                Una vez que una solicitud de cambio es recibida, se da inicio al proceso de revisión y evaluación. Este proceso 
+                cuenta con al menos dos niveles de revisión antes de ser programada la implementación del cambio. 
+            </p>
+            
+            <hr>
+            <h4 class="text-primary">2.1 - Verificación de Control de Calidad</h4>
+            <p class="text-justify">
+                Una cambio debe ser verificado en términos de:
+            </p>
+            <ul>
+                <li>Acciones correctivas</li>
+                <li>Mejora de sistema</li>
+                <li>Análisis de impacto y riesgo</li>
+                <li>Caso de negocio</li>
+            </ul>
+            
+            
+            <h4 class="text-primary">2.2 - Verificación de Especificación del Cambio</h4>
+            <p class="text-justify">
+                Cada grupo de responsables de aprobaciones debe tener personas determinadas para realizar las revisiones de todas las
+                solicitudes de cambios. Este recurso es responsable de revisar todos los cambios que afectan el grupo determinado y que
+                están en espera de ser implementados. Este recurso debe validar el impacto en su grupo y notificar a todos los miembros
+                de su grupo. Se debe verificar que toda la información en la solicitud de cambio es suficiente para garantizar la aprobación 
+                de la misma y de ser así, aprobar la solicitud.
+            </p>
+            
+            
+            <h4 class="text-primary">2.3 - Asignación de recursos</h4>
+            <p class="text-justify">
+                Para que cada cambio sea exitoso, se debe hacer la asignación de recursos apropiada. Los siguientes son recursos que siempre
+                se deben considerar para todos los cambios:
+            </p>
+            <ul>
+                <li>Tiempo de la ventana de mantenimiento para implementar el cambio</li>
+                <li>Personal para llevar acabo la implementación</li>
+                <li>Interfaces con otros grupos para garantizar las facilidades de prueba adecuadas</li>
+                <li>Acceso lógico y físico</li>
+            </ul>
+            
+            
+            <h4 class="text-primary">2.4 - Aprobación o denegación de cambios</h4>
+            <p class="text-justify">
+                Después de realizar la revisión pertinente de los cambios, los aprobadores pueden ya sea aceptar o denegar los cambios. Los
+                responsables de realizar las aprobaciones se deben comunicar con los solicitates del cambio lo más pronto posible para resolver
+                cualquier problema. Si algún problema no puede ser solucionado, entonces se debe cancelar la solicitud y volver a planificar
+                una nueva solicitud de cambio. 
+            </p>
+            
+            <hr> <!-- ---------------------------------------------------------- -->
+            
+            <h3 class="text-primary">3 - Coordinar Cambio</h3>
+            <p class="text-justify">
+                El comité de aprobación de cambios es el responsable de programar los cambios y generar la programación definitiva para realizar
+                el cambio. 
+            </p>
+            <hr>
+            
+            <h4 class="text-primary">3.1 - Obtener Autorización</h4>
+            <p class="text-justify">
+                Si un cambio implica un alto riesgo, el comité de aprobación podría contactar a otras personas para obtener aprobación de los cambios. 
+            </p>
+            
+            <h4 class="text-primary">3.2 - Revisión de Cronograma de Implementación</h4>
+            <p class="text-justify">
+                Es responsabilidad del gerente de gestión de cambios y el comité de aprobación revisar cada solicitud de cambios para verificar que estén 
+                completas, que cuentan con las aprobaciones necesarias y que están de acuerdo a los procedimientos de gestión de cambios. 
+            </p>
+            
+            <h4 class="text-primary">3.3 - Elaboración de Cronograma Definitivo </h4>
+            <p class="text-justify">
+                Se produce un plan de implementación definitivo.
+
+            </p>
+            
+  
+            <hr> <!-- ---------------------------------------------------------- -->
+            
+            <h3 class="text-primary">4 Implementación</h3>
+            <p class="text-justify">
+                
+                Todos los cambios requieren el nivel apropiado de aprobación previo a la fecha establecida para realizar el cambio. 
+                El implementador el cual generalmente es quien realizó la solicitud de cambio, realiza la implementación del cambio. Es 
+                responsabilidad del implementador verificar la disponibilidad del sistema antes de realizar el cambio. 
+                                
+            </p>
+            <hr>
+            
+            <h4 class="text-primary">4.1 - Implementar Cambios</h4>
+            <p class="text-justify">
+                
+                El implementador debe seguir cada una de las tareas de implementación detalladas en la solicitud de cambios. Cualquier
+                desviación del plan de implementación aprobado, incluyendo requerimientos para extender el cambio aprobado, deben ser 
+                aprobados por el líder técnico. 
+                
+            </p>
+            
+            <h4 class="text-primary">4.2 -  Verificación de cambios exitosa</h4>
+            <p class="text-justify">
+                
+                El implementador debe determinar si la implementación del cambio fue existosa o no basado en los resultados 
+                del plan de pruebas que se realiza justo después de la implementación. Los criterios de aceptación de un 
+                cambio han sido definidos previamente en la solicitud de cambio.
+                <br>
+                Si un cambio no ha sido implementado de manera satisfactoria, o se implementó de manera inconpleta, el
+                implementador debe detterminar si el cambio debe ser reversado o no. Cualquier participante que se vea
+                impactado negativamente por un cambio, también puede solicitar la reversión de dicho cambio. 
+                
+            </p>
+            
+            <h4 class="text-primary">4.3 -  Reversar cambios si es requerido</h4>
+            <p class="text-justify">
+                
+                Si un cambio falla durante la implementación o no puede ser completado durante el período de implementaciónn aprobado,
+                este debe ser reversado durante la ventana de tiempo aprobada o se debe solicitar una ventana de tiempo adicional.
+            </p>
+            
+            <h4 class="text-primary">4.4 -  Generar reportes de datos del cambio</h4>
+            <p class="text-justify">
+                El implementador es responsable de realizar un reporte de estado final dentro de las siguientes 24 a la realización de un cambio.
+                Este reporte debe incluir:
+            </p>
+            <ul>
+                <li>Hora de inicio y finalización</li>
+                <li>Resultados de implementación de cambio</li>
+                <li>Si el cambio no se implementó de manera exitosa, los detalles de dicha condición</li>
+                <li>Descripción de fallas</li>
+                <li>Número de incidente (si aplica)</li>
+            </ul>
+            
+            <hr> <!-- ---------------------------------------------------------- -->
+            
+            <h3 class="text-primary">5 - Medir Resultados</h3>
+            <p class="text-justify">
+                
+                Medir los resultados de los cambios implica realizar una revisión de la documentación de los cambios, implementación 
+                final, estatus y estadísticas/ Esta revisión se utiliza para afinar los criterios utilizados para autorizar cambios, 
+                garantizar consistencia en los procesos y mejorar el proceso como tal.
+
+            </p>
+            <hr>
+            
+            <h4 class="text-primary">5.1 -  Realizar revisión </h4>
+            <p class="text-justify">
+                
+                Los gerentes de cambio, miembros de los comités de aprobación y los dueños de los procesos, son 
+                responsables de realizar una revisión de los reportes de control de cambios. Adicionalmente, deben
+                monitorear las métricas de este proceso para generar mejora constante del mismo. Se deben estudiar 
+                y comentar cuando ocurren contratiempos con el fin de identificar oportunidades de mejora. 
+            </p>
+            
+            <h4 class="text-primary">5.2 -  Auditoría </h4>
+            <p class="text-justify">
+                El proceso de gestión de cambios, debe ser monitoreado para medir su efectividad. Si el proceso requiriera
+                afinamiento o ajustes, una solicitud de modificación del proceso se debe generar por medio de las autoridades
+                correspondientes. 
+            </p>
+            
+            <h4 class="text-primary">5.3 -  Generación de Métricas </h4>
+            <p class="text-justify">
+                Se deben generar reportes de gestión de cambios que reflejen el rendimiento en la actividad de cambio y los 
+                índices de éxito durante la actividad de cambio. 
+            </p>
+            
+            <h4 class="text-primary">5.4 - Distribuir Resultados </h4>
+            <p class="text-justify">
+                Los reportes de cambios finales se distribuyen por medio de correo electrónico utilizando listas de distribución. 
+            </p>
+            
+        </div>
+        
+    </div>
+    
+
+</div>
+
+{% endblock %}
